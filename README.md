@@ -19,10 +19,15 @@ Tech Stack:
 Project Structure:
 
 p2p_blockchain/
+
 ├── blockchain.py # Blockchain logic
+
 ├── node.py # Flask API for nodes
+
 ├── run_nodes.bat # Starts 3 nodes on Windows
+
 ├── requirements.txt # Dependencies
+
 └── screenshots/ # All screenshots
 
 How to Run ?
@@ -34,12 +39,13 @@ How to Run ?
         .\run_nodes.bat
 
     This will open 3 nodes:
+
     Node 1 → http://127.0.0.1:5000
 
     Node 2 → http://127.0.0.1:5001
 
     Node 3 → http://127.0.0.1:5002
-    
+
 
 API Endpoints:
 
@@ -60,6 +66,7 @@ API Endpoints:
 
 4. Register Nodes:
     POST /nodes/register
+
     Body (JSON):
     {
     "nodes": ["http://127.0.0.1:5001", "http://127.0.0.1:5002"]
