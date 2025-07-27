@@ -3,6 +3,7 @@ P2P Blockchain Simulation:
 This project simulates a Peer-to-Peer Blockchain Network where multiple nodes maintain their own blockchain copies and communicate to stay in sync.  
 
 Features :
+
 -> Create transactions  
 -> Mine new blocks (Proof-of-Work)  
 -> Maintain blockchain on multiple nodes  
@@ -10,6 +11,7 @@ Features :
 -> Consensus algorithm (Longest chain wins)  
 
 Tech Stack:
+
 -> Python 3.x  
 -> Flask (REST API)  
 -> Requests (for node communication)  
@@ -30,10 +32,14 @@ How to Run ?
 
 2. Start multiple nodes
         .\run_nodes.bat
+
     This will open 3 nodes:
     Node 1 → http://127.0.0.1:5000
+
     Node 2 → http://127.0.0.1:5001
+
     Node 3 → http://127.0.0.1:5002
+    
 
 API Endpoints:
 
